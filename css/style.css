@@ -11,14 +11,25 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+.content {
+    margin: 0 auto;
+    min-width: 37.5rem;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
    
 }
 .top-navigation > .content {
     width: 970px;
-    height: 4rem;
+    height: 4em;
     margin: 0 auto;
     padding: 0 3em;
    
@@ -32,7 +43,7 @@ body{
 }
 .links li {
     display: inline-block;
-    margin-left: 1.7rem;
+    margin-left: 1.7em;
     cursor:pointer;
     transition: color 0.3s ease;
     color: #838994;
@@ -47,7 +58,7 @@ body{
     font-weight: 500;
 }
 .top-navigation .logo {
-    height: 4.375rem;
+    height: 4.375em;
 }
 
 
@@ -56,18 +67,31 @@ body{
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45rem;
+    height: 45em;
     overflow: auto;
 }
 .introduction >.content {
    color:#fff; 
    text-align: center;
-   margin: 17em auto;
-   max-width: 37.5rem;
    letter-spacing: 0.2em;
    
   
 }
+
+.introduction >.content h1{
+	margin-top: 17.5rem;
+    font-size: 3.125rem;
+    font-size: 3.125rem;
+   
+
+}
+
+.introduction >.content h1,.introduction >.content h3{
+	color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
 
 .introduction >.content >.btn{
 	width: 170px;
@@ -83,3 +107,97 @@ body{
 .introduction >.content >.btn:hover{
 	background-color: #D44507;
 }
+
+ .services{
+ 	margin-top: 7.5em;
+ }
+
+ 
+ .services .devices_box{
+ 	width: 900px;
+ 	margin: 0 auto;
+ 	
+ }
+
+ .services .devices {
+    display: inline-block;
+    text-align: center;
+    margin: 0 2em;
+
+}
+
+
+
+
+.services h1{
+	text-align: center;
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.services h3{
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+.social{
+	margin:7em auto;
+}
+
+.social .content{
+	border-top:1px solid #eaebec;
+	padding:0 5em;
+	padding-bottom: 5em;
+	text-align: center;
+	width: 55em;
+	
+}
+
+.social .icons{
+	list-style: none;
+	width: 20em;
+	margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.icons li{
+	border: 1px solid #eaebec;
+	border-radius: 1.25em;
+    width: 2.5em;
+    height: 2.5em;
+    display: inline-block;
+    margin: 1.25em 5px;
+    padding: 0.625em 0;
+    text-align: center;
+
+}
+
+.icons li:hover{
+	cursor: pointer;
+}
+.social .fa-twitter{
+	color: #55acee;
+
+}
+
+.social .fa-facebook{
+	color:#4c66a4;
+}
+
+.social .fa-instagram{
+	color:#3f729b;
+}
+
+.social .copyr{
+	font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
